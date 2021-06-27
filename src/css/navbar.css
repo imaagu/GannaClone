@@ -1,0 +1,134 @@
+.navBarLink {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 3px;
+  cursor: default;
+}
+
+.navBarLinkWithpointer {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.navBarSelect {
+  color: #e72c30;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navBarLink:hover,
+.navBarLinkWithpointer:hover {
+  color: #e72c30;
+}
+
+.NavBarCirlce {
+  border: 1px solid #e72c30;
+  color: #e72c30;
+  padding: 4px 10px;
+  position: relative;
+  border-radius: 25px;
+  font-size: 1vw;
+  line-height: 1.18;
+  letter-spacing: 0.1px;
+  top: 30%;
+  cursor: pointer;
+}
+
+.NavBarCirlce:hover {
+  background-color: #e72c30;
+  color: white;
+}
+
+.dropbtn {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 120px;
+  right: 0;
+
+  font-size: 11px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+  font-size: 11px;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #add;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.musics:hover {
+  color: #e72c30;
+}
+
+@media only screen and (max-width: 450px) {
+  #smallHeart {
+    display: none;
+  }
+  #smallIconHeart {
+    display: none;
+  }
+  #songtext {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  #smallIcon {
+    display: none;
+  }
+  #songtext {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #loginLink {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  #loginLink {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 370px) {
+  #CurrentsongDetail {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  #CurrentsongDetail {
+    font-size: 11px;
+  }
+}
